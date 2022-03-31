@@ -8,20 +8,19 @@ let result, userNumber;
 result = 0;
 let i = 1;
 
-
 //con il ciclo while
 
-/* 
-while( i <= 5){
-    
-                userNumber = parseInt(prompt('inserisci un numero'))
-                result = result + userNumber;
-                i++;
-      
-                }
 
-console.log(`la somma è ${result}`)
-                 */
+/* while( i <= 5){
+    
+    userNumber = parseInt(prompt('inserisci un numero'))
+    result += userNumber;
+    i++;
+        
+}
+
+console.log(`la somma è ${result}`) */
+                
 
 // con il ciclo for
 
@@ -29,10 +28,10 @@ console.log(`la somma è ${result}`)
 
     
     userNumber = parseInt(prompt('inserisci un numero'))
-    result = result + userNumber;
+    result += userNumber;
     
 
-    }
+}
 
 console.log(`la somma è ${result}`)
    
